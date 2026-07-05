@@ -1,3 +1,0 @@
-/media/kainas/ubuntu/documents/hig_tree_python/teste/build/CMakeFiles/main.dir
-/media/kainas/ubuntu/documents/hig_tree_python/teste/build/CMakeFiles/edit_cache.dir
-/media/kainas/ubuntu/documents/hig_tree_python/teste/build/CMakeFiles/rebuild_cache.dir
