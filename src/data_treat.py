@@ -7,7 +7,7 @@ from torch.utils.data import TensorDataset
 
 def load_data_mlp(lista_nomes_malhas, path, MAX_N=60):
     """
-    Carrega os dados de múltiplas malhas, rotaciona as faces, ordena os vizinhos 
+    Carrega os dados de múltiplas malhas, ordena os vizinhos 
     por distância e preenche com zeros (padding) para usar em um MLP.
     """
     todas_features = []

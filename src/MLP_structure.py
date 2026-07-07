@@ -18,7 +18,8 @@ class StencilMLP_Global(nn.Module):
             
             # Camada 3: Oculta 2 -> Oculta 3
             nn.Linear(hidden_dim, hidden_dim),
-            nn.ReLU(0.1),
+            nn.LeakyReLU(0.1),
+
             # Camada 4: Oculta 3 -> Oculta 4
             nn.Linear(hidden_dim, hidden_dim // 2), # 256 -> 128
             nn.LeakyReLU(0.1),

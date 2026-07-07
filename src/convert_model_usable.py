@@ -1,10 +1,11 @@
 import torch
-from main import StencilMLP_Global
-from main import MAX_PONTOS
+from MLP_structure import StencilMLP_Global
 
-caminho_modelo_in = "modelo_mlp_pesos_sem_fisica_2.pt"
+MAX_PONTOS = 60
 
-caminho_out = "mlp_usable.pt"
+caminho_modelo_in = "../models/mlp_relativo_30k.pt"
+
+caminho_out = "../models/usable/mlp_relativo.pt"
 
 checkpoint = torch.load(caminho_modelo_in)
 model = StencilMLP_Global(max_n=MAX_PONTOS)
